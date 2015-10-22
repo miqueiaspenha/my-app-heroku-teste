@@ -5,5 +5,5 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + '/view/home.html');
 });
 
-app.listen(3000);
-console.log('Servidor rodando na porta 3000');
+app.listen(5000);
+console.log('Servidor rodando na porta 5000');
