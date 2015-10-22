@@ -1,6 +1,9 @@
 var express = require('express')
     ,app = express();
 
-app.get('/', function (res, req) {
-  res.sendFile('view/home.html');
+app.get('/', function (req, res) {
+  res.sendFile(__dirname + '/view/home.html');
 });
+
+app.listen(3000);
+console.log('Servidor rodando na porta 3000');
