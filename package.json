@@ -24,5 +24,8 @@
   "homepage": "https://github.com/miqueiaspenha/my-app-heroku-teste#readme",
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "6.11.1"
   }
 }
